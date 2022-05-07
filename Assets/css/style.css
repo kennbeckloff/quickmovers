@@ -73,8 +73,21 @@
     font-size:25px;
     font-weight:400;
 }
+.hr{
+    width: 160px;
+    margin-left: 200px;
+    border-top: 5px solid;
+    color: rgb(255, 136, 0);
+}
 
-.mover-container h1{
+.hr1{
+    width: 160px;
+    margin-left: 10px;
+    border-top: 5px solid;
+    color: rgb(255, 136, 0);
+}
+
+.containerm h1{
     font-size:48px;
     font-weight:400;
     position:relative;
@@ -82,7 +95,7 @@
     margin-bottom:100px;
 }
 
-.about-container{
+.containercut{
     display:flex;
     justify-content:space-between;
     margin:50px 0px;

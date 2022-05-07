@@ -9,6 +9,11 @@
     height:100vh;
 }
 
+.container1 > nav > ul > li{
+    list-style:none;
+    padding:0px 20px;
+}
+
 .container1 > nav > ul{
     display:flex;
     justify-content:center;
@@ -16,16 +21,14 @@
     height:100px;
 }
 
-.container1 > nav > ul > li{
-    list-style:none;
-    padding:0px 20px;
-}
-
 .container1 > nav > ul > li > a{
     padding: 25px;
     text-decoration:none;
     color:white;
     
+}
+.page-container{
+    overflow:hidden;
 }
 
 .btn{
@@ -43,6 +46,14 @@
     color: yellow;
 }
 
+.change h1{
+    color:rgb(237, 237, 68);
+    font-size:40px;
+    font-family:'Adamina' , sans-serif;
+    max-width:600px;
+    font-weight:400;
+}
+
 .change{
     margin:7px 7px 7px 7px;
     position:relative;
@@ -53,13 +64,7 @@
     display:flex;
     
 }
-.change h1{
-    color:rgb(237, 237, 68);
-    font-size:40px;
-    font-family:'Adamina' , sans-serif;
-    max-width:600px;
-    font-weight:400;
-}
+
 
 .change h3{
     max-width:600px;
@@ -69,3 +74,97 @@
     font-weight:400;
 }
 
+.mover-container h1{
+    font-size:48px;
+    font-weight:400;
+    position:relative;
+    right:-200px;
+    margin-bottom:100px;
+}
+
+.about-container{
+    display:flex;
+    justify-content:space-between;
+    margin:50px 0px;
+    }
+
+.about-image img{
+    width:500;
+}
+
+.about-text-container{
+    justify-content:start;
+    align-items: center;
+    display:flex;
+    width:1100px;
+}
+.about-text{
+    height:300px;
+    width:400px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    overflow:hidden;
+}
+
+.about-text > h1{
+    font-size:48px;
+    font-weight:400;
+}
+
+.about-text > h3{
+    color:rgb(110, 110, 110);
+    font-family:'Poppins', sans-serif;
+    font-weight:400;
+    max-width:400px;
+    align-items:flex-start;
+}
+
+.learnmore-button{
+    padding:20px 10px;
+    width:150px;
+    border-radius:12px;
+    border:none;
+    background-color:black;
+    color:yellow;
+    position:relative;
+    top:7px;
+    right:10px;
+}
+
+
+
+
+
+
+.movers{
+    display:grid;
+    grid-template-columns:300px 300px 300px;
+    justify-content: center;
+    row-gap:20px;
+    background-color: rgb(236, 236, 229);
+}
+.mover-card{
+    display:grid;
+    padding:10px;
+}
+
+.mover-card img{
+    width:250px;
+}
+
+.mover-card h4{
+    padding:20px 0px;
+
+}
+
+.mover-icon{
+    width:250px;
+    display:flex;
+}
+.mover-icon i{
+    border-bottom:none;
+    width:100px;
+    justify-content: flex-end;
+    height:30px;  
+}

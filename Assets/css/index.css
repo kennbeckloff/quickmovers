@@ -1,0 +1,70 @@
+.bar{
+    background-color:rgb(52, 42, 16);
+    height:300px;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100px;
+}
+
+nav ul li{
+    padding:0px 20px;
+    color: white;
+    list-style: none;
+    padding: 35px;
+}
+
+nav ul li a{
+    color:white;
+    padding: 20px;
+}
+.with{
+    overflow:hidden;
+    width:auto;
+}
+
+.work-button > i{
+    color:white;
+}
+
+.work{
+    padding:30px 20px;
+    width:300px;
+    border-radius:14px;
+    right:10px;
+    font-size: 18px;
+    border:none;
+    background-color:rgb(230, 163, 7);
+    color:rgb(0, 0, 0);
+    position:relative;
+    top:7px;
+}
+
+.text{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    color:white;
+    font-family:'Actor' , sans-serif;
+}
+
+.text-left >h2{
+    font-size:32px;
+    font-weight:100;
+    padding:10px 0px;
+}
+
+.text-left > h4{
+    padding:10px 0px;
+}
+
+.text-right >h3{
+    font-size:32px;
+    font-weight:100;
+    padding:10px 0px;
+}
+
+

@@ -1,6 +1,9 @@
 .allb{
     overflow: hidden;
 }
+.darkk{
+    background-color: gainsboro;
+}
 .bar{
     background-color:rgb(52, 42, 16);
     height:300px;
@@ -15,7 +18,7 @@ nav ul{
 
 nav ul li{
     padding:0px 20px;
-    color: white;
+    color: white;  
     list-style: none;
     padding: 35px;
 }
@@ -106,6 +109,7 @@ nav ul li a{
     align-content: space-between;
     border-radius: 19px;
     position:relative;
+    background-color: white;
     bottom:-50px;
     box-shadow: rgba(101, 100, 111, 0.2) 0px 7px 29px 0px;
     height:550px;
@@ -222,6 +226,7 @@ form{
     box-shadow: rgba(27, 32, 37, 0.15) 0px 0px 0px 1px;
     width:700px;
     height:400px;
+    background-color: white;
     position:relative;
     border-radius:20px;
     right:-50px;
@@ -238,14 +243,13 @@ form{
     font-family:'Actor';
     
 }
-
+.fe{
+    background-color: white;
+}
 .fe{
     margin-top:100px;
-    background-color: white);
-    box-shadow: rgba(254, 254, 254, 0.02) 0px 1px 3px 0px, 
-    rgba(27, 31, 35, 0.19) 0px 0px 0px 1px;
-    width:700px;
-    height:400px;
+    width:710px;
+    height:450px;
     position:relative;
     border-radius:20px;
     right:-50px;
@@ -278,10 +282,7 @@ form{
     justify-content:space-around;
 }
 
-
-
-
-/*-------LISTING SECTION-------*/
+/* listing */
 
 .listing-container{
     margin-top:100px;

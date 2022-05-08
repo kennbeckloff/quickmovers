@@ -1,3 +1,6 @@
+.allb{
+    overflow: hidden;
+}
 .bar{
     background-color:rgb(52, 42, 16);
     height:300px;
@@ -277,65 +280,65 @@ form{
 
 
 
-/* Similar Listings Styling */
-div.similar_listings {
-    margin-left: 150px;
+
+/*-------LISTING SECTION-------*/
+
+.listing-container{
+    margin-top:100px;
+    overflow: hidden;
 }
 
-div.similar_listings > div.profiles_list{
-    display: flex;
-    width: 120%;
-    margin-top: 100px;
-    margin-right: 0;
-    padding-bottom: 100px;
+.listing-container >h1{
+    padding-left:50px;
+    display:grid;
+    align-content: center;
+    font-size:28px;
+    font-weight:200;
+    font-family:'Actor';
+    height:100px;
 }
 
-div.similar_listings > div.profiles_list > div.profile {
-    height: 400px;
-    width: 150%;
-    flex-direction: row;
-    border-radius: 0 0 20px 20px;
+.line{
+    background-image:linear-gradient(to right,rgb(255, 187, 0),black);
+    height:3px;
+    width:120px;
+    position:relative;
+    right:-50px;
+
 }
 
-div.similar_listings > div.profiles_list > div.profile > div.listing_image {
-    height: 70%;
+.listers{
+    display:flex;
+    justify-content: space-around;
 }
 
-div.similar_listings > div.profiles_list > div.profile > div.listing_image > img {
-    max-width: 100%;
-    max-height: 100%;
+
+.list-card{
+    border-radius:10px;
+}
+.list-card > img{
+    width:305px;
+    height:250px;
 }
 
-div.similar_listings > div.profiles_list > div.profile > div.listings_statistics {
-    display: flex;
-    width: auto;
-    max-width: 100%;
+.list-card > h4{
+    height:50px;
+    background-color:white;
+    display:flex;
+    align-items:center;
+    padding-left:30px;
+    font-size:18px;
+    font-family:'Actor';
+    font-weight:200;
 }
 
-div.similar_listings > div.profiles_list > div.profile > div.listings_statistics > .car{
-    width: 10%;
+.list{
+    display:flex;
 }
 
-div.similar_listings > div.profiles_list > div.profile > div.listings_statistics > .bath{
-    width: 10%;
-}
-
-div.similar_listings > div.profiles_list > div.profile > div.listings_statistics > .hashtag{
-    width: 10%
-}
-
-div.similar_listings > div.profiles_list > div.profile > div.listings_statistics > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    width: 100%;
-    margin: 1px 0 0 0;
-    padding-right: 20px;
-    padding-left: 20px;
-    
-}
-
-div.similar_listings > div.profiles_list > div.profile > div.listings_statistics > div > i.fa {
-    color: black;
+.list-button{
+    width:102px;
+    height:50px;
+    border:.5px solid rgb(228, 228, 228);
+    background-color:white;
 }

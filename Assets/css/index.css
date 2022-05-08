@@ -236,5 +236,43 @@ form{
     
 }
 
+.fe{
+    margin-top:100px;
+    background-color: white);
+    box-shadow: rgba(254, 254, 254, 0.02) 0px 1px 3px 0px, 
+    rgba(27, 31, 35, 0.19) 0px 0px 0px 1px;
+    width:700px;
+    height:400px;
+    position:relative;
+    border-radius:20px;
+    right:-50px;
+    overflow: hidden;
+}
+.air{
+    display:grid;
+    align-content: space-around;
+}
+
+.air > a{
+    color:black;
+    font-family:'Actor';
+    text-decoration:none;
+    }
+
+.fe > h3{
+    padding-left:50px;
+    display:grid;
+    align-content: center;
+    font-size:28px;
+    font-weight:200;
+    font-family:'Actor';
+    height:100px;
+}
+
+.air-links{
+    height:300px;
+    display:flex;
+    justify-content:space-around;
+}
 
 
